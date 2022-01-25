@@ -5,7 +5,7 @@
 > 
 > "Parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência etc.) e das operações intelectuais que visam à determinação do que é verdadeiro ou não."
 > 
-> `Informática`
+> **`Informática`**
 > 
 > **"Organização e planejamento das instruções, assertivas etc. em um algoritmo, a fim de viabilizar a implantação de um programa."**
 
@@ -26,5 +26,28 @@
 #### ⮩ Constantes
 > "As constantes são usadas na programação de computadores para armazenar **valores fixos**"
 
-##### Tipos de variáveis
+### Operadores aritméticos
+
+Função | Operador
+-------- | --------
+Soma | +
+Subtração | -
+Multiplicação | *
+Divisão | /
+Potenciação | ^
+Porcentagem | %
+
+### Concatenação
+> "Operação que une o conteúdo de duas strings (cadeia de caracteres alfanuméricos)."
+
+~~~c#
+string nome = "Henrique";
+string sobrenome = "Yamada";
+string nome_completo = "";
+
+nome_compreto = nome + sobrenome; //<--  Concatenação
+~~~
+
+### Estrutura de repetição
+> " É uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador."
 
