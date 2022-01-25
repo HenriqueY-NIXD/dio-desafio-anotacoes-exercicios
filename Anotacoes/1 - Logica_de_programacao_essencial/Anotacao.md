@@ -23,7 +23,7 @@
 ### Variável
 > "Região de memória (do computador) previamente identificada cuja finalidade é armazenar os **dados ou informações** de um programa por um determinado espaço de tempo"
 
-#### ⮩ Constantes
+#### ⮩ Variável - Constantes
 > "As constantes são usadas na programação de computadores para armazenar **valores fixos**"
 
 ### Operadores aritméticos
@@ -37,17 +37,45 @@ Divisão | /
 Potenciação | ^
 Porcentagem | %
 
+### Linguagens de programação
+> "A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado (linguagens interpretadas) e ela vai permitir que o programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias. Linguagens de programação podem ser usadas para expressar algoritmos com precisão."
+
+#### ⮩ Linguagens de programação - Alto nível
+> "Aquela cuja `sintaxe` é voltada para o **entendimento humano**, assim esse tipo de linguagem é muito mais intuitivo, amigável e mais fácil de aprender. As linguagens de alto nível abstraem conceitos voltados para a máquina e sintetizam comandos"
+
+**Exemplo:**
+![Imagem de código em C#](,/assets/c#.png)
+#### ⮩ Linguagens de programação - Baixo nível
+**Exemplo**
+![Imagem de código em Assembly](https://upload.wikimedia.org/wikipedia/commons/f/f3/Motorola_6800_Assembly_Language.png)
 ### Concatenação
 > "Operação que une o conteúdo de duas strings (cadeia de caracteres alfanuméricos)."
 
-~~~c#
+~~~C#
+// C# babyyyyy ♪┏(・o･)┛♪┗ ( ･o･) ┓♪
+
 string nome = "Henrique";
 string sobrenome = "Yamada";
 string nome_completo = "";
 
-nome_compreto = nome + sobrenome; //<--  Concatenação
+nome_completo = nome + " " + sobrenome; 
 ~~~
 
 ### Estrutura de repetição
 > " É uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador."
+
+~~~C#
+// C# babyyyyy ♪┏(・o･)┛♪┗ ( ･o･) ┓♪
+
+//Estrutura de repetição com "for"
+for(int i=0; i<5; i++){
+  //Código até contador bater com a condição
+}
+
+//Estrutura de repetição com "while"
+while(/*condição*/){
+  //Código até condição ser efetuada
+}
+~~~
+
 
