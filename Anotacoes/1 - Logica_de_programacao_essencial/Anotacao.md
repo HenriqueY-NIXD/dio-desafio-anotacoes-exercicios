@@ -44,9 +44,11 @@ Porcentagem | %
 > "Aquela cuja `sintaxe` é voltada para o **entendimento humano**, assim esse tipo de linguagem é muito mais intuitivo, amigável e mais fácil de aprender. As linguagens de alto nível abstraem conceitos voltados para a máquina e sintetizam comandos"
 
 **Exemplo:**
-![Imagem de código em C#](,/assets/c#.png)
+![Imagem de código em C#](https://docs.microsoft.com/pt-br/visualstudio/get-started/csharp/media/csharp-console-calculator-switch-code.png?view=vs-2022)
+
 #### ⮩ Linguagens de programação - Baixo nível
-**Exemplo**
+>"As de baixo nível são voltadas para o **entendimento da máquina**. Por isso, elas têm uma sintaxe mais complexa e não contam com comandos tão intuitivos."
+**Exemplo:**
 ![Imagem de código em Assembly](https://upload.wikimedia.org/wikipedia/commons/f/f3/Motorola_6800_Assembly_Language.png)
 ### Concatenação
 > "Operação que une o conteúdo de duas strings (cadeia de caracteres alfanuméricos)."
