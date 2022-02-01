@@ -46,13 +46,17 @@ Porcentagem | %
 > "Aquela cuja sintaxe é voltada para o **entendimento humano**, assim esse tipo de linguagem é muito mais intuitivo, amigável e mais fácil de aprender. As linguagens de alto nível abstraem conceitos voltados para a máquina e sintetizam comandos"
 
 **Exemplo:**
-![Imagem de código em C#](https://docs.microsoft.com/pt-br/visualstudio/get-started/csharp/media/csharp-console-calculator-switch-code.png?view=vs-2022)
+<div>
+  <img src="https://docs.microsoft.com/pt-br/visualstudio/get-started/csharp/media/csharp-console-calculator-switch-code.png?view=vs-2022" alt="Imagem de código em C#">
+</div>
 
 #### ⮩ Baixo nível
 >"As de baixo nível são voltadas para o **entendimento da máquina**. Por isso, elas têm uma sintaxe mais complexa e não contam com comandos tão intuitivos."
 
 **Exemplo:**
-![Imagem de código em Assembly](https://upload.wikimedia.org/wikipedia/commons/f/f3/Motorola_6800_Assembly_Language.png)
+<div>
+  <img width="560" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Motorola_6800_Assembly_Language.png" alt="Imagem de código em Assembly">
+</div>
 
 ### Linguagens de programação Compiladas/Interpretadas:
 
@@ -78,9 +82,14 @@ string nome = "Henrique";
 string sobrenome = "Yamada";
 string nome_completo = "";
 
-nome_completo = nome + " " + sobrenome; //<-- Concatenação
-nome_completo = string.Format("{0} {1}", nome, sobrenome); //<-- Outra maneira
-nome_completo = $"{nome} {sobrenome}"; //<-- Funciona apenas versão .NET 6 para frente
+//Concatenação
+nome_completo = nome + " " + sobrenome; 
+
+//Outra maneira
+nome_completo = string.Format("{0} {1}", nome, sobrenome); 
+
+//Funciona apenas versão .NET 6 para frente
+nome_completo = $"{nome} {sobrenome}"; 
 ~~~
 
 ### Matriz e vetor
