@@ -23,7 +23,7 @@
 ### Variável
 > "Região de memória (do computador) previamente identificada cuja finalidade é armazenar os **dados ou informações** de um programa por um determinado espaço de tempo"
 
-#### ⮩ Variável - Constantes
+#### ⮩ Constantes
 > "As constantes são usadas na programação de computadores para armazenar **valores fixos**"
 
 ### Operadores aritméticos
